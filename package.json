@@ -1,0 +1,26 @@
+{
+    "name": "autor landing page", 
+    "version": "0.0.1", 
+    "description": "Marketplace for independent filmmakers to sell content to audiences", 
+    "main": "web.js", 
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    }, 
+    "dependencies": { 
+	"express": "~3.3.4"
+	"sequelize": "~2.0.0-alpha2", 
+	"pg": "~2.3.1", 
+	"ejs": "~0.8.4", 
+	"async": "~0.2.9", 
+	"request": "~2.27.0", 
+	"underscore": "~1.5.1"
+    },
+    "engines": { 
+	"node": "0.10.13", 
+	"npm": "1.3.2"
+    }, 
+    "repository": { 
+	"type": "git", 
+	"url": "https://github.com/heroku/autor"
+    }
+}
