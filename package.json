@@ -2,7 +2,9 @@
   "name": "autor",
   "version": "0.0.2",
   "description": "a marketplace for filmmakers to sell their content",
-  "main": "web.js"
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "~3.3.4"
