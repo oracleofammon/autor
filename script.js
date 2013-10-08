@@ -1,7 +1,7 @@
 
 $(window).load(function() {
-    $(".screenplay").delay(4000).fadeOut(1000, function(){ 
-      $(".fade-in").fadeIn(4000); 
+    $(".screenplay").delay(0).fadeOut(0, function(){ 
+      $(".fade-in").fadeIn(0); 
       }); 
   });
 
