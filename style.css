@@ -114,6 +114,13 @@ html {
 	margin: auto;
 	padding: 0;
 }
+#coming-soon { 
+        float: left; 
+	position: fixed; 
+	padding: opx; 
+	top: 0px; 
+	left: 0px; 
+}
 #logo {  
         position: relative; 
 	margin: 170px auto 0;
