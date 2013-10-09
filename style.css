@@ -116,11 +116,14 @@ html {
 }
 #logo {  
         position: relative; 
-	margin: auto;
+	margin: 170px auto 0;
 	width: 14.34846266471449%;                     /* 196/1366 */ 
 	display: block; 
 	padding: 0; 
-	margin-top: 170px; 
+}
+#logo img { 
+        height: auto; 
+	max-width: 100%; 
 }
 body {
 	font-family: "ff-meta-serif-web-pro", "Times New Roman", "Times", "serif";
@@ -128,29 +131,32 @@ body {
 ul {
 	list-style: none;
 }
-form { 
+#mc_embed_signup { 
 
 	position: relative;
-	width: 17.71595900439239%;                    /* 242/1366 */
-	margin: 75px auto 20px; 
+	margin-top: 75px;
+	margin-bottom: 20px; 
 }
 .button { 
 	font-size: 100%; 
 	letter-spacing: 0px;
 	height: 36px; 
-	padding: 2px; 
+	padding: 0;                                 /* 2/242 */
 	background-color: black; 
 	border-color: black; 
 	color: white;
 	margin-left: 0; 
+	min-width: 20px; 
+	
 }
 .required-email {
 	color: #ffff; 
-	width: 89.66942148760331%;                   /* 217/242 */ 
+	width: 15.0805270863836%;                  /* 206/1366 */ 
 	padding: 7px .36603221083455% 7px .36603221083455%;      /* 5/1366 */
 	font-family: "Times New Roman", "Arial"; 
 	font-size: 100%;
 	height: 18px;
+	margin-left: 40.99560761346999%;                        /* 560/1366 */
 }
 #social {
         margin-top: 20px;
@@ -159,9 +165,9 @@ form {
 	width: 25.25622254758419%;                 /* 345/1366 */ 
 }
 ul { 
-    position: relative; 
-    height: 40px; 
-    padding: 0; 
+        position: relative; 
+	height: 40px; 
+	padding: 0; 
 }
         
 ul li {
@@ -170,7 +176,6 @@ ul li {
 	display: inline-block; 
 	padding: 0px; 
 }
-
     
 /*-  MEDIA QUERIES
 ----------------------------------------------------------------------*/
