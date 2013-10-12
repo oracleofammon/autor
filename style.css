@@ -114,13 +114,6 @@ html {
 	margin: auto;
 	padding: 0;
 }
-#coming-soon { 
-        float: left; 
-	position: fixed; 
-	padding: opx; 
-	top: 0px; 
-	left: 0px; 
-}
 #logo {  
         position: relative; 
 	margin: 170px auto 0;
@@ -132,6 +125,9 @@ html {
         height: auto; 
 	max-width: 100%; 
 }
+.fade-in { 
+
+} 
 body {
 	font-family: "ff-meta-serif-web-pro", "Times New Roman", "Times", "serif";
 }
