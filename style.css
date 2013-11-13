@@ -146,6 +146,7 @@ ul {
 	width: 100%; 
 	text-align: center; 
 }
+
 .button { 
 	font-size: 100%; 
 	letter-spacing: 0px;
@@ -177,6 +178,37 @@ ul {
 
 } 
 	
-    
 /*-  MEDIA QUERIES
 ----------------------------------------------------------------------*/
+@media screen and (max-width: 600px),
+screen and (max-device-width: 480px) {
+    html {
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	}
+}
+/*
+  Tiny & Tinier Screens
+*/
+@media screen and (max-width: 480px), screen and (max-width: 360px) {
+    #social ul li { 
+	width: 90px; 
+    }
+    .button {
+	border-radius: 0; 
+	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px; 
+	-webkit-appearance: none; 
+    }
+    .required-email {
+ 	border-radius: 0px; 
+	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px; 
+    }   
+    .screenplay {
+	width: 100%; 
+	height: auto; 
+    }
+}
+ 
+    
