@@ -116,20 +116,24 @@ html {
 }
 #logo {  
         position: relative; 
-	margin: 170px auto 0;
-	width: 14.34846266471449%;                     /* 196/1366 */ 
+	margin-top: 170px; 
+	margin-bottom: 0px; 
+	width: 100%; 
+	text-align: center; 
 	display: block; 
 	padding: 0; 
+	display: block; 
 }
 #logo img { 
         height: auto; 
 	max-width: 100%; 
+	min-width: 100px; 
 }
 .fade-in { 
 
 } 
 body {
-	font-family: "ff-meta-serif-web-pro", "Times New Roman", "Times", "serif";
+    font-family: "ff-meta-serif-web-pro", "Times New Roman", "Times", "serif";
 }
 ul {
 	list-style: none;
@@ -139,6 +143,8 @@ ul {
 	position: relative;
 	margin-top: 75px;
 	margin-bottom: 20px; 
+	width: 100%; 
+	text-align: center; 
 }
 .button { 
 	font-size: 100%; 
@@ -159,26 +165,18 @@ ul {
 	font-family: "Times New Roman", "Arial"; 
 	font-size: 100%;
 	height: 18px;
-	margin-left: 40.99560761346999%;                        /* 560/1366 */
+	min-width: 150px;
 }
-#social {
-        margin-top: 20px;
-	margin-left: 40.33674963396779%;           /* 551/1366 */    
-	padding: 0px; 
-	width: 25.25622254758419%;                 /* 345/1366 */ 
+#social { 
+        width: 100%;
+	text-align: center; 
 }
-ul { 
-        position: relative; 
-	height: 40px; 
-	padding: 0; 
-}
-        
-ul li {
-	position: relative;
-	margin-right: 23.18840579710145%;          /* 80/345 */
+#social ul li { 
+	width: 110px; 
 	display: inline-block; 
-	padding: 0px; 
-}
+
+} 
+	
     
 /*-  MEDIA QUERIES
 ----------------------------------------------------------------------*/
