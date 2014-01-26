@@ -2,6 +2,7 @@ var express = require('express')
   , fs      = require('fs')
   , http    = require('http')
   , https   = require('https')
+  , newrelic = require('newrelic') 
 
 var app = express();
 app.set('port', process.env.PORT || 8080);
